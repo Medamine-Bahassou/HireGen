@@ -18,11 +18,27 @@ Cette application est un **générateur de fiches de mission alimenté par l'IA*
 *   **Vite**: Un outil de build rapide pour les projets web modernes.
 *   **CSS**: Pour le style de l'application.
 
+<p style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/868c450b-ce41-4e31-a077-55e030569729" width="100" />
+  <img src="https://github.com/user-attachments/assets/c1bccf37-2399-4392-8c5e-3906fe3adfb1" width="100" />
+  <img src="https://github.com/user-attachments/assets/10a85a43-3e7e-4055-be9d-85d05ae49592" width="100" />
+</p>
+
+
+
 ### Backend
 *   **.NET 8**: Une plateforme de développement gratuite, multiplateforme et open-source pour la création de nombreux types d'applications.
 *   **ASP.NET Core**: Un framework pour la création d'applications et de services web avec .NET.
 *   **Entity Framework Core**: Un mappeur objet-relationnel (ORM) pour .NET.
 *   **MySQL**: Un système de gestion de base de données relationnelle.
+
+<p style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/365b1406-2af2-4955-8746-371a683f43e6" width="100" />
+  <img src="https://github.com/user-attachments/assets/52033b9e-38df-4e6b-9480-e4d41cb6448b" width="100" />
+  <img src="https://github.com/user-attachments/assets/718660e9-8c43-494b-b40d-aaeb47b7d9cf" width="100" />
+  <img src="https://github.com/user-attachments/assets/b9ea15e9-3372-49d8-85d8-689d747191ad" width="100" />
+</p>
+
 
 ## Installation
 
