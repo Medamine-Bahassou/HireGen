@@ -1,0 +1,173 @@
+##############################
+# General Secrets / Sensitive
+##############################
+# Environment variable files
+*.env
+.env.*
+!.env.example
+!.env.template
+
+# Specific secret files by name/pattern
+secret.json
+secrets.json
+credentials.json
+credentials.*.json
+key.pem
+*.key
+*.pfx
+*.p12
+*.secret
+*private*.key
+*.token
+*.auth
+*password*
+
+# Azure specific (if you download service principal files, etc.)
+azure-credentials.json
+*.azureauth
+
+# AWS specific (though usually in ~/.aws/)
+aws_access_key_id.txt
+aws_secret_access_key.txt
+credentials # If someone puts an AWS credentials file in the project
+
+# Google Cloud specific
+gcp-credentials.json
+service-account-key.json
+
+# Files that might contain connection strings or API keys locally
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Secret.json # A common pattern for user-specific overrides
+secrets/ # A directory for local secrets
+
+# User-specific configuration files that might contain secrets
+*.user
+*.userprefs
+
+# Launch settings can sometimes contain sensitive environment variables for local dev
+# Be cautious if you commit this. If it contains secrets, ignore it.
+# Properties/launchSettings.json
+
+##############################
+# Visual Studio / .NET Build
+##############################
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+Log/
+Logs/
+
+# Visual Studio Team Services/Azure DevOps
+*.vspscc
+*.vssscc
+.vs/ # Visual Studio 2017+ cache/metadata
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Rider
+.idea/
+*.sln.iml
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+# Exclude package target files, good for SDK-style projects
+*.nuget.props
+*.nuget.targets
+
+# Roslyn files
+.roslyn/
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Publish Folders
+publish/
+**/bin/Release/publish/
+**/bin/Debug/publish/
+**/obj/Docker/publish/
+**/obj/Docker/empty/
+
+# Web Deploy (can contain sensitive info in .pubxml if not careful)
+*.Publish.xml.user
+*.pubxml.user
+# Consider ignoring *.pubxml if they contain passwords and you're not using integrated auth/MSDeploy Tokenization
+# *.pubxml
+
+# Entity Framework
+GeneratedઁCode/ # If you scaffold and don't want to commit generated code
+
+# Other
+*.log
+*.tlog
+*.patch
+*.orig
+*.lock
+*.tmp
+*.bak
+*.cache
+
+# Specific tools
+_ReSharper*/ # ReSharper specific
+*.[Ss]tyle[Cc]op.[Cc]ache # StyleCop specific
+
+# If you are using Yarn/NPM for frontend parts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # If you prefer only yarn.lock or vice-versa
+yarn.lock # If you prefer only package-lock.json or vice-versa
+
+# Local App Config transformations that might contain secrets
+# (appsettings.json is usually committed, but environment-specific overrides with secrets are not)
+# Already covered by appsettings.Development.json, appsettings.Local.json above, but for web.config:
+# Web.Debug.config
+# Web.Release.config
+# (Only if these contain secrets that aren't tokenized/transformed by CI/CD)
+
+# User Secrets file (though the actual secrets are stored outside the project,
+# this prevents committing a local copy if someone makes one)
+secrets.json # Often used with `dotnet user-secrets` - the actual file is outside the repo.
+             # This line is a safeguard if someone copies it into the project.
+
+# Service Fabric Local Cluster settings
+ApplicationParameters/Local*.xml
+ApplicationParameters/Cloud.xml # If it contains sensitive data for cloud deploys from local machine
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# Rider Code Coverage
+Coverage.xml

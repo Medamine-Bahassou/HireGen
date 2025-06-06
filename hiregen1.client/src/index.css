@@ -1,0 +1,31 @@
+/* Basic resets for a clean slate */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: Remove default margin/padding from common elements */
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Set a default line-height for better readability */
+body {
+  line-height: 1.6;
+}
+
+/* Optional: Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Optional: Remove text decoration from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
