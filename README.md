@@ -109,8 +109,10 @@ Cela démarrera le serveur de développement React, généralement sur `http://l
 
 ### Historique des Missions
 ![image](https://github.com/user-attachments/assets/92f01a06-aa42-4492-b12a-4c3079fbd3e4)
-![image](https://github.com/user-attachments/assets/c98a7429-c410-4c4c-886a-75c386533ee2)
 
+|Détails|Modifier|
+|---|---|
+| ![image](https://github.com/user-attachments/assets/c98a7429-c410-4c4c-886a-75c386533ee2) | ![image](https://github.com/user-attachments/assets/0065998b-6e24-4146-bc7c-2eb0e45599c4) |
 
 ## Réaliser par
 * Mohamed Amine BAHASSOU
