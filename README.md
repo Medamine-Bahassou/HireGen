@@ -147,4 +147,4 @@ Cela démarrera le serveur de développement React, généralement sur `http://l
 * Hodaifa ECHFFANI
 
 ## Encadré par
-* Hassan ZILI
+* Prof. Hassan ZILI
