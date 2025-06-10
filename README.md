@@ -144,7 +144,6 @@ Cela démarrera le serveur de développement React, généralement sur `http://l
 
 ## Réaliser par
 * Mohamed Amine BAHASSOU
-* Hodaifa ECHFFANI
 
 ## Encadré par
 * Prof. Hassan ZILI
