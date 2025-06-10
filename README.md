@@ -2,6 +2,18 @@
 
 # HireGen
 
+<!-- Technology Badges -->
+<p style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dot-net&logoColor=white" alt="ASP.NET Core" />
+  <img src="https://img.shields.io/badge/Entity%20Framework%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Entity Framework Core" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Groq-FFA500?style=for-the-badge&logo=groq&logoColor=white" alt="Groq" />
+</p>
+
 ## Description
 Cette application est un **générateur de fiches de mission alimenté par l'IA**, conçu pour aider les recruteurs à créer rapidement et efficacement des descriptions de mission complètes. À partir d'une brève description textuelle, l'application utilise l'IA de Groq pour générer une fiche de mission structurée au format JSON, qui peut ensuite être gérée et consultée.
 
